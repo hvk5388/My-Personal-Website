@@ -3,4 +3,4 @@ The Zoom-bot is an interactive navigation and maintence interface that could be 
 #Clinique Virtual Reality
 Clinique Virtual Reality is a way to experience personalized cosmetic advice from any location, at any time. It allows the user to scan their face, view the problem areas, and recommends products and solutions. I worked on creating high fiedlity wireframes for the application.
 #UXPA
- UXPA strives to give UX students oportunities to gain expreience outside of the classroom.As the founding treasurer of UXPA, Penn State Chapter, I have put in a lot of work to get the club started. Leading meetings, recruiting members, and workign to become a recognized club are some of my tasks. We haven't currently finished any projects, but we are well on our way.
+UXPA strives to give UX students oportunities to gain expreience outside of the classroom. As the founding treasurer of UXPA, Penn State Chapter, I have put in a lot of work to get the club started. Leading meetings, recruiting members, and working to become a recognized club are some of my tasks. We haven't currently finished any projects, but we are well on our way.
