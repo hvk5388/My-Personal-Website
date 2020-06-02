@@ -1,0 +1,53 @@
+.headers{
+    font-family: "Montserrat", sans-serif;
+    color: #1d1d1d;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.home {
+    position: relative;
+}
+
+.picturewords{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    color:black;
+    text-align: center;
+}
+
+.name{
+    margin-left: 3%; 
+    display:inline-block;
+}
+
+.about{
+    display:inline-block; 
+    margin-left: 60%;
+}
+
+.projects{
+    display:inline-block; 
+    margin-left: 2%
+}
+
+.hello{
+    font-size: 100px; 
+    margin-bottom: 0px;
+}
+
+.intro{
+    font-size: 20px; 
+    margin-top: 0px;
+}
+
+.flowerpic{
+    width: 10%;
+}
