@@ -1,7 +1,16 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .headers{
     font-family: "Montserrat", sans-serif;
     color: #1d1d1d;
     background-color: #E3E2E2;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 
 img {
@@ -62,6 +71,11 @@ img {
     margin-left: 2%
 }
 
+.contact{
+    display:inline-block; 
+    margin-left: 2%
+}
+
 .hello{
     font-size: 100px; 
     margin-bottom: 0px;
@@ -79,6 +93,10 @@ img {
     margin-top: 5%;
 }
 
+.descriptionmargins{
+    margin:0;
+}
+
 .description{
     font-size: 17px;
     color:black;
@@ -89,6 +107,10 @@ img {
     /*left: 50%;
     transform: translate(-50%, -50%); */
     text-align: left;
+}
+
+.projectsmargins{
+    margin:0;
 }
 
 .projecttitles{
@@ -166,6 +188,11 @@ img {
     padding: 0;
     border: 0;
     display: inline-block;
+    padding-bottom: 6%;
+}
+
+.chat{
+    font-size: 25px;
 }
 
 .contactpics img {
@@ -177,8 +204,10 @@ img {
 }
 
 .copyright{
-    /* position: absolute;
-    bottom: 0px; */
+    background-color: #747474;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 3%;
 }
 
 .resume{
@@ -192,6 +221,32 @@ a:link{
     color: white;
 }
 
+.about a:link{
+    color: #1d1d1d;
+}
+
+.projects a:link{
+    color: #1d1d1d
+}
+
+.contact a:link{
+    color: #1d1d1d
+}
+
 a:visited{
     color: white;
 }
+
+.about a:visited{
+    color: #1d1d1d;
+}
+
+.projects a:visited{
+    color: #1d1d1d;
+}
+
+.contact a:visited{
+    color: #1d1d1d;
+}
+
+a { text-decoration: none; }
