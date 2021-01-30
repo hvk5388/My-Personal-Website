@@ -12,7 +12,7 @@ body {
     font-family: "Montserrat", sans-serif;
     color: #1d1d1d;
     background-color: #E3E2E2;
-    position: fixed;
+    position: absolute;
     z-index: 1;
     width: 100%;
     top: 0;
@@ -65,29 +65,27 @@ img {
 }
 
 .name{
-    margin-left: 3%; 
-    display:inline-block;
+    margin-left: 2%; 
+    display: inline-block;
 }
 
 .about{
-    display:inline-block; 
-    margin-left: 60%;
+    display: inline; 
+    margin-left: 2%;
+    float: right;
+    margin-right: 2%;
 }
 
 .projects{
-    display:inline-block; 
-    margin-left: 2%
-
-    /* position: fixed;
-    z-index: 3;
-    width: 100%;
-    top: 0;
-    left: 0; */
+    display: inline; 
+    margin-left: 2%;
+    float: right;
 }
 
 .contact{
-    display:inline-block; 
-    margin-left: 2%
+    float:right;
+    display: inline; 
+    margin-left: 2%;
 }
 
 .hello{
@@ -104,7 +102,6 @@ img {
     width: 10%;
     /* float: left; */
     margin-left: 10%;
-    margin-top: 5%;
 }
 
 .descriptionmargins{
@@ -112,24 +109,23 @@ img {
     background-color: white;
     position: absolute;
     display: block;
+    padding-top: 3%;
+    padding-bottom: 3%;
     }
 
 .description{
     font-size: 17px;
     color:black;
-    display: block;
-/*     
     display: inline-block;
-    margin-left: 5%;
-    margin-top: 100%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: left; */
+    vertical-align: top;
+    width: 75%;
+    margin-left: 2%;
+    margin-top:2%;
 }
 
 .projectsmargins{
-    margin-top: 100%;
-    position: fixed;
+    margin-top: 114%;
+    position: absolute;
 }
 
 .projecttitles{
