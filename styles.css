@@ -107,7 +107,7 @@ img {
 .descriptionmargins{
     margin-top: 100%;
     background-color: white;
-    position: absolute;
+    position: relative;
     display: block;
     padding-top: 3%;
     padding-bottom: 3%;
@@ -124,8 +124,8 @@ img {
 }
 
 .projectsmargins{
-    margin-top: 114%;
-    position: absolute;
+    /* margin-top: 114%; */
+    position: relative;
 }
 
 .projecttitles{
@@ -143,9 +143,9 @@ img {
     padding-bottom: 10%;
     padding-left: 3%;
     padding-right: 3%;
-    max-width: 100%;
+    width: 100%;
     display: inline-flex;
-    margin-top: 2%;
+    height: auto;
 }
 
 .UXPA .projectdescriptions{
@@ -168,12 +168,12 @@ img {
     background: #40BAD5;
 }
 
-.UXPAlogo{
+/* .UXPAlogo{
     border-radius: 10px;
     margin: 1.75%;
     width: 15%;
     position: absolute;
-}
+} */
 
 .zoombot{
     background-color: #FCBF1E;
@@ -184,11 +184,12 @@ img {
     background: #FCBF1E;
 }
 
-.zoomlogo{
+/* .zoomlogo{
     margin: 1.75%;
     width: 15%;
     position: absolute;
-}
+    
+} */
 
 .virtualreality{
     background-color: #035AA6;
@@ -198,9 +199,18 @@ img {
     background: #035AA6;
 }
 
-.vrlogo{
+/* .vrlogo{
     margin: 1.75%;
     width: 15%;
+    position: absolute;
+    border-radius: 10px;
+} */
+
+.projectlogo{
+    display: block;
+    border-radius: 10px;
+    width: 90%;
+    margin:5%;
     position: absolute;
 }
 
@@ -285,7 +295,38 @@ a:visited{
 
 a { text-decoration: none; }
 
-.projectdescriptions:hover{
+.herebutton a:link{
+    color: black;
+}
+
+.herebutton a:visited{
+    color: black;
+}
+
+.projectcol:hover .projectdescriptions{
+    /* font-family: "Montserrat", sans-serif;
+    font-size: 100%;
+    background-color: white;
+    padding: 3%;
+    margin: 5%;
+    text-align: left;
+    border-radius: 10px;
+    color: black; */
+    visibility: visible;
+}
+
+.projectcol:hover .projectlogo{
+    visibility: hidden;
+}
+
+.projectcol {
+    position: relative;
+}
+
+.projectdescriptions {
+    visibility: hidden;
+    display: block;
+    position: static;
     font-family: "Montserrat", sans-serif;
     font-size: 100%;
     background-color: white;
