@@ -105,7 +105,7 @@ img {
 }
 
 .descriptionmargins{
-    margin-top: 100%;
+    margin-top: 52%;
     background-color: white;
     position: relative;
     display: block;
@@ -222,7 +222,7 @@ img {
 
     /* padding-left: 5%;
     padding-top: 5%; */
-    position: absolute;
+    position: relative;
     /* transform: translate(-50%, -50%); */
     font-size: 18px;
     text-align: center;
@@ -231,12 +231,14 @@ img {
     width: 100%;
     padding: 0;
     border: 0;
-    display: inline-block;
-    padding-bottom: 6%
+    display: block;
+    padding-bottom: 4%;
+    padding-top: 4%;
 }
 
 .chat{
     font-size: 25px;
+    margin: 0;
 }
 
 .contactpics img {
@@ -252,9 +254,8 @@ img {
     background-color: #747474;
     color: #ffffff;
     text-align: center;
-    margin-top: 13%;
-    position: absolute;
-    display: inline-block;
+    position: relative;
+    display: block;
     width: 100%;
     margin-left: 0;
     padding-top: 2%;
